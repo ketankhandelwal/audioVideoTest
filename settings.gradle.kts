@@ -17,12 +17,13 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter()
-//        maven {
-//            url = uri("https://maven.pkg.github.com/ketankhandelwal/AstroAudioVideoProject")
-//            credentials {
-//                username = "ketankhandelwal"
-//            }
-//        }
+        maven {
+            url = uri("https://maven.pkg.github.com/ketankhandelwal/AstroAudioVideoProject")
+            credentials {
+                username = "ketankhandelwal"
+                password = null
+            }
+        }
         maven {
             url = uri("https://jitpack.io")
 
@@ -32,11 +33,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "finalTest"
 include(":app")
-
-
-
-
-
-
-
  
