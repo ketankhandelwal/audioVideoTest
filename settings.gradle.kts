@@ -21,7 +21,6 @@ dependencyResolutionManagement {
 //            url = uri("https://maven.pkg.github.com/ketankhandelwal/AstroAudioVideoProject")
 //            credentials {
 //                username = "ketankhandelwal"
-//                password = null
 //            }
 //        }
         maven {
@@ -33,6 +32,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "finalTest"
 include(":app")
+
+
+
+
 
 
 
